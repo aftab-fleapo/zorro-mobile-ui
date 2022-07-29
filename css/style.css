@@ -1,0 +1,159 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrap {
+  background-color: #fff;
+}
+
+.innerwrap {
+  max-width: 480px;
+  margin: 0px auto;
+  min-height: 100vh;
+  background-image: url("../images/background_login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.form-inner {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.form-inner form {
+  position: relative;
+}
+
+.form-inner label {
+  color: #232323;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: capitalize;
+  display: block;
+}
+
+.form-inner input {
+  width: 100%;
+  padding: 8px 5px;
+  border: 0px;
+  border-bottom: 1px solid #c6c6c6;
+  margin-bottom: 30px;
+}
+
+.form-inner input:focus {
+  outline: 0;
+}
+
+.form-inner select {
+  width: 100%;
+  padding: 8px 0px;
+  border: 0px;
+  border-bottom: 1px solid #c6c6c6;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.form-inner select:focus {
+  outline: 0;
+}
+
+.form-inner textarea {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.form-inner textarea:focus {
+  outline: 0;
+}
+
+.form-inner input[type="submit"] {
+  border-bottom: 0px;
+  padding: 15px 57px;
+  background-color: #c89659;
+  position: absolute;
+  margin-bottom: 0;
+  left: -25px;
+  bottom: -25px;
+  width: unset;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  text-transform: capitalize;
+}
+
+.form-inner input[type="password"] {
+  margin-bottom: 60px;
+}
+
+.frm h2 {
+  font-size: 16px;
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+  font-weight: 600;
+}
+
+.pb30 {
+  padding-bottom: 50px;
+}
+
+.fixedHeight {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+/* width */
+.formwrap::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+.formwrap::-webkit-scrollbar-thumb {
+  background: #fff7e4;
+}
+
+.inof-sec legend {
+  font-size: 20px;
+  font-weight: 700;
+  /* text-decoration: underline; */
+  color: #856544;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.custompopup {
+  text-align: center;
+  padding: 25px;
+  background: #fff;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 30px;
+}
+
+.custompopup p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #856544;
+  padding-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */

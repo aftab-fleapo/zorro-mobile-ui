@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24">
+    <g data-name="Settings Icon">
+        <path transform="translate(3)" style="fill:none" d="M0 0h24v24H0z"/>
+        <path d="M15.3 16.993a3.2 3.2 0 0 1-.135-4.243l-3.559-6.57a3.179 3.179 0 0 1-2.453-.047l-3.635 6.41a3.22 3.22 0 1 1-1.526-.874l3.8-6.686a3.2 3.2 0 1 1 5.22.1l3.6 6.66a3.184 3.184 0 0 1 2.534.2L22.58 5.65A3.2 3.2 0 0 1 24.623.007a3.206 3.206 0 1 1-.423 6.354l-3.756 6.87a3.212 3.212 0 0 1-5.144 3.762z" style="fill:#d5d5d5" transform="translate(0 2)"/>
+    </g>
+</svg>

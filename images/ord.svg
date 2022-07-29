@@ -1,0 +1,28 @@
+<svg data-name="Search Icon Copy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="24" viewBox="0 0 26 24">
+    <defs>
+        <linearGradient id="eg7atfoq0a" x1=".25" y1=".081" x2=".657" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#4a3526"/>
+            <stop offset="1" stop-color="#cb995a"/>
+        </linearGradient>
+        <linearGradient id="fem9tnn6ib" x1=".816" y1=".089" x2=".362" y2=".899" xlink:href="#eg7atfoq0a"/>
+        <linearGradient id="85720g6gyc" x1="1" x2=".257" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset=".253" stop-color="#a0704f"/>
+            <stop offset="1" stop-color="#d2a475"/>
+        </linearGradient>
+        <linearGradient id="etjvct13kd" x1=".098" y1=".136" x2=".716" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#a0704f"/>
+            <stop offset="1" stop-color="#d2a475"/>
+        </linearGradient>
+    </defs>
+    <path transform="translate(2)" style="fill:none" d="M0 0h24v24H0z"/>
+    <g data-name="Group 5">
+        <path d="M.434 0 5.54 3.581a6.658 6.658 0 0 1 2.873 4.812l.57 6.108a3.946 3.946 0 0 1-1.168 3.157A4.685 4.685 0 0 1 4.5 19a4.7 4.7 0 0 1-3.225-1.254 3.973 3.973 0 0 1-1.274-3z" transform="translate(17 3)" style="fill:url(#eg7atfoq0a)"/>
+        <path data-name="Path" d="M8.566 0 3.46 3.581A6.658 6.658 0 0 0 .587 8.393L.017 14.5a3.946 3.946 0 0 0 1.168 3.157A4.685 4.685 0 0 0 4.5 19a4.7 4.7 0 0 0 3.225-1.254 3.973 3.973 0 0 0 1.274-3z" transform="translate(0 3)" style="fill:url(#fem9tnn6ib)"/>
+        <path data-name="Path" d="M7 0h.867a6.3 6.3 0 0 1 4.756 2.115 5.468 5.468 0 0 1 1.25 4.785l-1 4.5a18.024 18.024 0 0 0-.426 3.892v1.45a2.195 2.195 0 0 1-.832 1.7 2.522 2.522 0 0 1-1.921.526L7 18.61l-2.7.367a2.522 2.522 0 0 1-1.921-.526 2.195 2.195 0 0 1-.832-1.7V15.3a18.024 18.024 0 0 0-.426-3.892l-1-4.5a5.468 5.468 0 0 1 1.25-4.787A6.3 6.3 0 0 1 6.133 0z" transform="translate(6 2)" style="fill:#fff7e4"/>
+        <path data-name="Path" d="m1.454 12.995 2.246-.943A3.594 3.594 0 0 0 6 8.788V0a6.434 6.434 0 0 0-4.669 2.128 5.191 5.191 0 0 0-1.2 4.6l1 4.388A17.049 17.049 0 0 1 1.455 13" transform="translate(6 2)" style="fill:url(#85720g6gyc)"/>
+        <path data-name="Fill 1" d="m1.1 0 .734 2.324h-.691L2 5 0 1.96h.759L.068.6z" transform="translate(8 6)" style="fill:#fff"/>
+        <path data-name="Path" d="M4.546 12.995 2.3 12.052A3.594 3.594 0 0 1 0 8.788V0a6.434 6.434 0 0 1 4.669 2.128 5.191 5.191 0 0 1 1.2 4.6l-1 4.388C4.724 11.737 4.545 13 4.545 13" transform="translate(14 2)" style="fill:url(#etjvct13kd)"/>
+        <path data-name="Path" d="M3.913.452A.849.849 0 0 0 3.15 0H.849a.854.854 0 0 0-.763.452.769.769 0 0 0 .094.848l1.15 1.393a.879.879 0 0 0 1.338 0L3.818 1.3a.764.764 0 0 0 .095-.848z" transform="translate(12 16)" style="fill:#2b1716"/>
+        <path data-name="Fill 1 Copy" d="m1.643 0 1.1 2.324H1.714L3 5 0 1.96h1.139L.1.6z" transform="translate(15 6)" style="fill:#fff"/>
+    </g>
+</svg>

@@ -1,0 +1,504 @@
+@font-face {
+    font-family: 'SFProTextb';
+    src: url('../fonts/SFProText-Bold.woff2') format('woff2'),
+        url('../fonts/SFProText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProTextr';
+    src: url('../fonts/SFProText-Regular.woff2') format('woff2'),
+        url('../fonts/SFProText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProTextm';
+    src: url('../fonts/SFProText-Medium.woff2') format('woff2'),
+        url('../fonts/SFProText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProTextsm';
+    src: url('../fonts/SFProText-Semibold.woff2') format('woff2'),
+        url('../fonts/SFProText-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+$main-padding:0px 15px;
+
+$padding-20:0px 20px;
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+
+}
+
+ul{
+    list-style:none;
+}
+
+ul,h1,h2,h3,h4,h5,h6,p{ 
+    padding:0px;
+    margin:0px;
+}
+
+a:hover , a:visited, a{
+    text-decoration:none;
+}
+
+input:focus, select:focus{
+    outline:0;
+}
+
+@mixin anchorstyle {
+    display: block;
+    padding: 20px 35px;
+    color: #ffffff;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(200,150,89,1) 0%, rgba(169,116,72,1) 100%);
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.innerwrap{
+    max-width:768px;
+    margin:0 auto;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+body{
+    font-family: SFProTextr;
+}
+
+header {
+    padding: 10px 15px;
+    background: #fff;
+    &{
+        h6 {
+            font-size: 12px;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+
+        p{
+            font-size: 12px;
+            font-family: SFProTextb;
+        }
+    }
+}
+.header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_inner ul{
+    display: flex;
+   align-items: center;
+
+}
+
+.header_inner ul li:first-child{
+    margin-right:10px;
+}
+
+.dtime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a140f;
+    color: #fff;
+    padding: 15px;
+
+    &>{
+        .contnet h4{
+           font-size:14px;
+           color: #fff;
+           letter-spacing:1px;
+           font-weight:600;
+        }
+
+        .contnet p{
+              font-size:12px;
+              color:#c7996d;
+              font-weight:500;
+              margin-top:5px;
+        }
+
+        p{
+            color: #fff;
+            font-weight:500;
+            font-size:12px;
+        }
+    }
+}
+
+section.searchslide {
+    background: #4c3f34;
+    padding-bottom:50px;
+    border-bottom:1px solid #fff;
+    padding-left:15px;
+
+    &{
+        form{
+            position: relative;
+            padding: 15px;
+        }
+
+        input{
+            border-radius: 15px;
+            padding: 15px 15px;
+            padding-left: 35px;
+            width: 100%;
+            border:0px;
+        }
+
+        input::placeholder{
+            font-size:14px;
+            color: #717171;
+            font-weight:400;
+         
+        }
+
+       form img{
+            position:absolute;
+            left:20px;
+            top:50%;
+            transform: translate(0 , -50%);
+            max-width:50px;
+        }
+    }
+}
+
+ul.slidetitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+    &{
+
+        h6{
+        color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    font-weight: 500;
+        }
+
+    a{
+        font-size: 12px;
+        color: #bd8953;
+        text-transform: uppercase;
+      
+        font-weight: 600;
+    }
+    }
+}
+
+.productcard {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px 10px;
+
+    &{
+        img {
+            max-width: 70px;
+            display: block;
+            margin: 0 auto;
+        }
+         
+
+        p{
+               font-weight: 500;
+               color: 
+               #1e2843;
+               font-weight:12px;
+               padding:15px 0px  5px 0px;
+        }
+        
+        small{
+             color: #8f9bb3;
+             font-size:12px;
+        }
+    }
+}
+
+ul.cardfoot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+.cardfoot b {
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+
+span {
+    color: #8f9bb3;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+ul.cardfoot a {
+    color: #c7996d;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+section.categories {
+    background: #4c3f34;
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+h3.sectitle {
+    font-size: 12px;
+    color: #ffffff;
+    margin-bottom: 17px;
+}
+
+.categoriescard {
+    background: #fff;
+    border-radius: 15px;
+}
+
+.categoriescard img {
+    display: block;
+    margin: 0px auto;
+    max-width: 37px;
+}
+
+.categoriescard .img{
+    padding:20px;
+} 
+
+.categoriescard h6 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #000000;
+    padding: 10px 5px;
+    border-top: 1px solid #00000047;
+}
+
+ul.catogorisgrid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.catogorisgrid li{
+    width:33.3%;
+    margin:5px;
+    flex: 1;
+}
+
+.exclusiveoffer , .covidessential{
+    border-bottom:1px solid #fff;
+    padding:15px 0px 30px 15px;
+    background-color: #4c3f34;
+    
+}
+
+.customodal {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: #00000057;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.edititem {
+    background: #fff;
+    width: 600px;
+    border-radius: 15px;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.editheader ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+    border-bottom: 1px solid #00000030;
+}
+
+.editheader ul h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1e2843;
+}
+
+.quantitycard {
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quantitycard  h2 {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.quantitycard .contnet th {
+    text-align: left;
+    font-size: 14px;
+    color: #8f9bb3;
+    text-transform: capitalize;
+    padding: 5px 0px;
+}
+
+.quantitycard .contnet td {
+    text-align: right;
+    font-size:14px;
+    color:#333333;
+}
+
+.addonbox {
+    padding: 15px 25px;
+    background: #fff7e4;
+}
+
+.addonbox table td, .addonbox table td h6 {
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 16px;
+    color: #333333;
+    padding: 8px 0px;
+    font-weight: 500;
+}
+
+.addonbox a {
+    color: #bd8953;
+    border: 1px solid #bd8953;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.addonbox input[type="text"] {
+    display: block;
+    margin-top: 16px;
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    border: 0px;
+    padding: 10px;
+}
+
+.eidtfooer ul {
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+    box-shadow: 0px -3px 20px #0000006e;
+}
+
+.eidtfooer ul li:last-child{
+    margin-left:auto;
+}
+
+.eidtfooer ul li:last-child a{
+    font-size:16px;
+    text-transform:uppercase;
+    color:#fff;
+    font-weight:bold;
+    display:inline-block;
+    border-radius:15px;
+    padding:10px 25px;
+    background: linear-gradient(180deg, #c89659 0%, #a97448 100%);
+}
+
+.eidtfooer p {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #333333;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.eidtfooer p  span{
+    color:#c49157;
+}
+
+.addonbox h3 {
+    text-transform: capitalize;
+}
+
+.quantitycard .img img {
+    width: 58px;
+}
+@media only screen and (max-width: 560px) {
+    .addonbox table td, .addonbox table td h6 {
+        padding: 2px 0px;
+    }
+
+    .quantitycard h2 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .quantitycard {
+        padding: 5px 25px 0px 25px;
+    }
+
+    .quantitycard .contnet th {
+        padding: 2px 0px;
+    }
+
+    .eidtfooer ul {
+        padding: 5px 25px;
+   
+    }
+
+    .editheader ul {
+        padding: 5px 15px;
+  
+    }
+
+    .editheader ul img{
+        width: 20px;
+    }
+  }
+@media only screen and (max-width: 360px) {
+    .quantitycard .contnet {
+        width: 61%;
+    }
+  }

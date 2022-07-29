@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'SFProTextb';
+  src: url("../fonts/SFProText-Bold.woff2") format("woff2"), url("../fonts/SFProText-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProTextr';
+  src: url("../fonts/SFProText-Regular.woff2") format("woff2"), url("../fonts/SFProText-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProTextm';
+  src: url("../fonts/SFProText-Medium.woff2") format("woff2"), url("../fonts/SFProText-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProTextsm';
+  src: url("../fonts/SFProText-Semibold.woff2") format("woff2"), url("../fonts/SFProText-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+ul, h1, h2, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0px;
+}
+
+a:hover, a:visited, a {
+  text-decoration: none;
+}
+
+input:focus, select:focus {
+  outline: 0;
+}
+
+.innerwrap {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+section.multilabelform {
+  padding: 40px 20px;
+  font-family: 'SFProTextr';
+}
+
+.multilabelform h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #1e2843;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.multilabelform h6 img {
+  margin-right: 8px;
+  width: 20px;
+}
+
+.multilabletab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.multilabletab span {
+  background-color: #ececec;
+  display: inline-block;
+  height: 4px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 10px;
+}
+
+.multilabletab span.active {
+  background-color: #bd8953;
+}
+
+h3.tabtile {
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 0.30px;
+}
+
+form input {
+  height: 60px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #f7f7f7;
+  border: 0;
+  padding: 0px 20px;
+}
+
+form input::-webkit-input-placeholder {
+  font-size: 17px;
+  color: #acb1c0;
+  text-transform: capitalize;
+}
+
+form input:-ms-input-placeholder {
+  font-size: 17px;
+  color: #acb1c0;
+  text-transform: capitalize;
+}
+
+form input::-ms-input-placeholder {
+  font-size: 17px;
+  color: #acb1c0;
+  text-transform: capitalize;
+}
+
+form input::placeholder {
+  font-size: 17px;
+  color: #acb1c0;
+  text-transform: capitalize;
+}
+
+section.multilabelform {
+  padding: 40px 20px;
+  font-family: 'SFProTextr';
+  height: 100vh;
+  position: relative;
+}
+
+section.multilabelform form input[type="submit"] {
+  display: block;
+  padding: 20px 35px;
+  color: #ffffff;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c89659), to(#a97448));
+  background: linear-gradient(180deg, #c89659 0%, #a97448 100%);
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 17px;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 50px;
+}
+
+label.termscondition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+section.multilabelform form input[type="checkbox"] {
+  height: unset;
+  width: unset;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+
+label.termscondition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 12px;
+  font-weight: 500;
+  color: #888888;
+  padding-top: 15px;
+}
+
+label.termscondition a {
+  color: #1991eb;
+  font-size: 12px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.371" height="25.053" viewBox="0 0 25.371 25.053">
+    <defs>
+        <linearGradient id="oyzlbzckpa" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#c89659"/>
+            <stop offset="1" stop-color="#a97448"/>
+        </linearGradient>
+    </defs>
+    <ellipse cx="12.685" cy="12.526" rx="12.685" ry="12.526" style="opacity:.99;fill:url(#oyzlbzckpa)"/>
+    <path data-name="Icon" d="M8.155 0 2.548 5.368 0 2.928" transform="translate(9.061 9.842)" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px"/>
+</svg>

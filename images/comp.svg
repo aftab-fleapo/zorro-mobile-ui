@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20">
+    <g data-name="Group 2" transform="translate(-130 -752)">
+        <path d="M2.849 20a2.807 2.807 0 0 1-2.464-1.437 2.86 2.86 0 0 1 0-2.87L8.539 1.436a2.83 2.83 0 0 1 4.925 0l8.15 14.257a2.868 2.868 0 0 1 0 2.872A2.808 2.808 0 0 1 19.153 20z" transform="translate(130 752)" style="fill:#d5d5d5"/>
+        <path d="M.917 6.947A.921.921 0 0 1 0 6.021V.926a.917.917 0 1 1 1.833 0v5.1a.921.921 0 0 1-.916.921z" transform="translate(140.24 757.974)" style="fill:#fff"/>
+        <ellipse cx="1.1" cy="1.111" rx="1.1" ry="1.111" transform="translate(140.056 765.969)" style="fill:#fff"/>
+    </g>
+</svg>
